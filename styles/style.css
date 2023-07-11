@@ -1,0 +1,318 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Common Section */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+/* Header Start */
+.header-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../FlowerAsset/pngwing\ 10.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.header-text {
+  width: 550px;
+  font-size: 30px;
+}
+.header-btn {
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 20px;
+  background: #e55473;
+  border: none;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 25px 45px;
+}
+
+.header-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.header-discription {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+/* Header end */
+/* Main Start */
+/* Begining Of First Section */
+.Featured-text {
+  text-align: center;
+}
+.Featured-head {
+  font-size: 50px;
+  margin-top: 100px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.featured-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+.Featured-img1 {
+  background-color: #f8c8dc;
+  padding: 50px;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  height: 380px;
+}
+
+.Featured-head4 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.Featured-img1 {
+  background: rgba(167, 33, 98, 0.15);
+  padding: 50px;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  height: 380px;
+}
+.flower {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+.Featured-img2 {
+  background: rgba(5, 151, 160, 0.15);
+  padding: 50px;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  height: 380px;
+}
+.Featured-img3 {
+  background: rgba(71, 125, 17, 0.15);
+  padding: 50px;
+  border-top-right-radius: 200px;
+  border-top-left-radius: 200px;
+  height: 380px;
+}
+.Featured-img {
+  width: 285px;
+}
+.Featured-head4 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+/* Ending Of First Section */
+/* Begining Of Second Section */
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  margin-top: 210px;
+  background: rgba(39, 139, 39, 0.05);
+
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.service-h4 {
+  text-align: center;
+  margin-top: 15px;
+}
+/* Ending Of Second Section */
+/* Begining of third Section */
+.hotdeal-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 150px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 25px;
+}
+.hotdeal-text {
+  width: 550px;
+}
+.hotdeal-h4 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.hotdeal-discripton {
+  text-align: center;
+}
+
+.sign-up {
+  border-radius: 5px;
+  color: #fff;
+  background: #e55473;
+  border: none;
+  padding: 20px 40px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 200px;
+  border: none;
+  gap: 10px;
+}
+/* Ending Of Third Section */
+/* Begining Of Fourth Section */
+.instagram-text {
+  text-align: center;
+  margin-top: 100px;
+}
+instagram-h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #272727;
+}
+.instagram-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+}
+.instagram-images {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 80vh;
+  margin-left: 150px;
+  margin-top: -110px;
+}
+/* Ending Of Fourth Section */
+/* Begining Of Fifth Section */
+.banner-container {
+  width: 80%;
+  height: 30vh;
+  background-image: url("../FlowerAsset/Rectangle\ 9.png");
+  padding-top: 50px;
+  text-align: center;
+  margin-left: 150px;
+}
+.banner-text {
+  margin-top: -50px;
+  font-size: 25px;
+}
+.banner-paragraph {
+  margin-top: -30px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.Email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email {
+  width: 50%;
+  height: 40px;
+  margin-right: 8px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background: #fff;
+  border: none;
+}
+.Subscribe-bnt {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 15px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background: #e55473;
+  padding: 5px 6px;
+}
+/* Ending Of Fifth Section */
+/* Main End */
+/* Begining Of Footer Section */
+.footer-container {
+  background-color: black;
+  width: 100%;
+  height: 40vh;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text {
+  text-align: center;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 550px;
+  margin-right: 550px;
+}
+.footer-h2 {
+  margin-bottom: 10px;
+}
+
+.footer-flower {
+  color: #e55473;
+  text-decoration: none;
+}
+.copyright-paragraph {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Ending Of Footer Section */
