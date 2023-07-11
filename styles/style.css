@@ -298,7 +298,7 @@ instagram-h1 {
   justify-content: space-around;
   background: rgba(229, 84, 115, 0.05);
   flex-wrap: wrap;
-  border: 5px rgba(229, 84, 115, 0.05);
+  border: 10px rgba(218, 84, 113, 0.05);
 }
 .review {
   text-align: center;
