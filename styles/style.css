@@ -280,6 +280,49 @@ instagram-h1 {
   padding: 5px 6px;
 }
 /* Ending Of Fifth Section */
+/* Begining of section-06 */
+.review-section {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.review-heading {
+  font-size: 3rem;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.reviews {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  background: rgba(229, 84, 115, 0.05);
+  flex-wrap: wrap;
+  border: 5px rgba(229, 84, 115, 0.05);
+}
+.review {
+  text-align: center;
+  flex-basis: 23%;
+  background: white;
+  margin: 10px 0px;
+  padding: 20px 0px;
+  box-shadow: 0px 0px 10px 3px lightgray;
+}
+.person-name {
+  padding: 10px 0px;
+}
+.person-description {
+  font-size: 14px;
+  padding-left: 10px;
+}
+.review:hover {
+  background: pink;
+}
+.review:hover .person-name,
+review:hover .person-description {
+  color: white;
+}
+/* End  of section-06 */
 /* Main End */
 /* Begining Of Footer Section */
 .footer-container {
